@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="StudentRegistration"  onSubmit="return(validate());">
+
+<table cellpadding="6" width="80%" bgcolor="99FFFF" align="center"
+cellspacing="3">
+
+<tr>
+<td colspan="6">
+<center><font size="4"><b><u>Director/ Shareholder in any company</u></b></font></center>
+</td>
+</tr>
+<tr>
+<td colspan="6">
+<center><font size="4"><b><u>Director</u></b></font></center>
+</td>
+</tr>
+<tr>
+    <th>Name of company</th>
+    <th>Type of company</th>
+    <th>Pan of company</th>
+    <th>Whether shares are listed or unlisted</th>
+    <th>DIN</th>
+  </tr>
+  <tr>
+    <td><input type="text" id="companyname" name="companyname" value=""><br></td>
+    <td><input type="text" id="companytype" name="companytype" value=""></td>
+    <td><input type="text" id="companypan" name="companypan" value=""></td>
+    <td><input type="text" id="sharesarelistedorunlisted" name="shares" value=""></td>
+    <td><input type="text" id="din" name="din" value=""></td>
+    </tr>
+	
+<tr>
+<td colspan="6">
+<center><font size="4"><b><u>Shareholder in any company</u></b></font></center>
+</td>
+</tr>
+
+<tr>
+    <th>Name of company</th>
+    <th>Type of company</th>
+    <th>Pan of company</th>
+</tr>
+<tr>
+<td><input type="text" id="companyname" name="companyname" value=""><br></td>
+    <td><input type="text" id="companytype" name="companytype" value=""></td>
+    <td><input type="text" id="companypan" name="companypan" value=""></td>
+</tr>
+
+<tr>
+<td colspan="2">
+<center><font size="3"><b>Opening Balance</b></font></center>
+</td>
+</tr>
+    <!--<th>Opening Balance</th>-->
+	<tr>
+    <td>No of Shares:</td>
+	<td>Cost of acquisition:</td>
+	</tr>
+	<tr>
+    <td><input type="text" id="amount" name="amount" value=""></td>
+	<td><input type="text" id="amount" name="amount" value=""></td>
+  </tr>
+<tr>
+<td colspan="5">
+<center><font size="3"><b>Shares acquired during the year</b></font></center>
+</td>
+</tr>
+    <!--<th>Shares acquired during the year</th>-->
+	<tr>
+    <td>No of Shares:</td>
+	<td>Date of Purchase:</td>
+	<td>Face value per share:</td>
+	<td>Issue price per share (incase of fresh issue):</td>
+	<td>Purchase price per share <br>(in case of purchase from existing shareholder):</td>
+	<tr>
+	</tr>
+    <td><input type="text" id="amount" name="amount" value=""></td>
+	<td><input type="text" id="amount" name="amount" value=""></td>
+	<td><input type="text" id="amount" name="amount" value=""></td>
+	<td><input type="text" id="amount" name="amount" value=""></td>
+	<td><input type="text" id="amount" name="amount" value=""></td>
+  </tr>
+<tr>
+<td colspan="2">
+<center><font size="3"><b>Shares transferred</b></font></center>
+</td>
+</tr>
+   <!-- <th>Shares transferred</th> -->
+	<tr>
+    <td>No of Shares:</td>
+	<td>Sale consideration:</td>
+	</tr>
+	<tr>
+    <td><input type="text" id="amount" name="amount" value=""></td>
+	<td><input type="text" id="amount" name="amount" value=""></td>
+	</tr>
+  </tr>
+<tr>
+<td colspan="2">
+<center><font size="3"><b>Closing balance</b></font></center>
+</td>
+</tr>
+	<!--<th>Closing balance</th>-->
+	<tr>
+    <td>No of Shares:</td>
+	<td>Cost of acquisition:</td>
+	</tr>
+	<tr>
+    <td><input type="text" id="amount" name="amount" value=""></td>
+	<td><input type="text" id="amount" name="amount" value=""></td>
+	</tr>
+ </tr>
+    
+ 
+<tr class="center">
+<td class="center">
+<button type="save" class="btn btn-save" >Save</button>
+<button type="next" class="btn btn-Next"><a href="form2.html">Next</button>
+<button type="skip" class="btn btn-skip"><a href="form2.html">Skip</button>
+</td class="center">
+</tr>
+</table>
+</form>
+</body>
+</html>

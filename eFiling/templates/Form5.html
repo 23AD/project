@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="StudentRegistration"  onSubmit="return(validate());">
+
+<table cellpadding="5" width="40%" bgcolor="99FFFF" align="center"
+cellspacing="8">
+<tr>
+<td colspan="6">
+<center><font size="4"><b>Income Particulars</b></font></center>
+</td>
+</tr>
+<tr>
+<td>Bank Statements of all Banks:</td>
+<td><input type="file" id="files" name="files" multiple></td>
+</tr>
+
+<tr>
+<td>Form 16 (for Salaried Assesses) Both Part A & B:</td>
+<td><input type="file" id="files" name="files" multiple></td>
+</tr>
+<tr>
+<td colspan="6">
+<center><font size="4"><b>Rental income Details Tenant wise (with address of  property)</b></font></center>
+</td>
+</tr>
+<tr>
+<td colspan="3">
+<center><font size="4"><b><u>Property 1</u></b></font></center>
+</td>
+</tr>
+<tr>
+    <th>Address of the Property</th>
+	<th>Is the property co-owned ?(if yes, enter the following details)</th>
+	
+</tr>
+ <tr>
+    <th>Name of Co-owners</th>
+    <th>PAN/ Aadhar of co-owners</th>
+	<th>Percentage share in property</th>
+</tr>
+<tr>
+    <td><input type="text" id="name" name="name" value=""></td>
+    <td><input type="text" id="pan/aadhar" name="pan/aadhar" maxlength="12" value=""></td>
+    <td><input type="text" id="percentage" name="percentage" value=""></td>
+</tr>
+    </tr>
+	
+<td colspan="3">
+<center><font size="4"><b><u>Tenant Details</u></b></font></center>
+</td>
+</tr>
+<tr>
+    <th>Name of Tenant</th>
+    <th>Pan of Tenant</th>
+	<th>Aadhar of Tenant</th>
+</tr>
+ <tr>
+    <td><input type="text" id="name" name="name" value=""><br></td>
+    <td><input type="text" id="pan" name="pan" maxlength="12" value=""></td>
+    <td><input type="text" id="aadhar" name="aadhar" maxlength="12" value=""></td>
+</tr>
+<tr>
+    <th>Icoome Details</th>
+    <th>Amount</th>
+</tr>
+ <tr>
+	<td>Rent received</td>
+	<td><input type="text" id="amount" name="income" value=""><br></td>
+</tr>
+<tr>	
+	<td>Tax Paid to local Authority</td>
+	<td><input type="text" id="amount" name="income" value=""><br></td>
+</tr>
+<tr>
+	<td>Any interest paid on housing loan for the said property</td>	
+	<td><input type="text" id="amount" name="income" value=""><br></td>
+</tr>
+<tr>	
+	<td>Arrears of rent received</td>
+	<td><input type="text" id="amount" name="income" value=""><br></td>
+</tr>
+	
+    
+ 
+<tr class="center">
+<td class="center">
+<button type="save" class="btn btn-save" >Save</button>
+<button type="next" class="btn btn-Next"><a href="form6,7.html">Next</button>
+<button type="skip" class="btn btn-skip"><a href="form6,7.html">Skip</button>
+</td class="center">
+</tr>
+</table>
+</form>
+</body>
+</html>

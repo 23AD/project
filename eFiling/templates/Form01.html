@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+<form action="#" name="StudentRegistration" onSubmit="return(validate());">
+
+<table cellpadding="7" width="80%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+
+<tr>
+<td colspan="4">
+<center><font size="4"><b>Client Registration</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>First Name:</td><td><input type=text name=firstnames id="firstname" size="15" required/></td>
+<td>Last Name:</td><td><input type=text name=lastnames id="lastname" size="15" required/></td>
+</tr>
+
+<tr>
+<td>E-mail:</td><td><input type="text" name="emailid" id="emailid" size="15" required/></td>
+
+<td>MobileNo:</td><td><input id="telNo" name="telNo" type="tel" size="15" maxlength="10" required/></td>
+
+</tr>
+
+<tr>
+<td>Address:</td>
+<td><input type="text" name="address" id="address" size="40" required/></td>
+</tr>
+
+<tr>
+<td>Sex:</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>City:</td>
+<td><input type="City" name="city" id="city" size="20">
+<td>State:</td>
+<td><select name="state">
+<option value="-1" selected>select..</option>
+	<option>Andhra Pradesh</option>
+    <option>Arunachal Pradesh</option>
+    <option >Assam</option>
+    <option >Bihar</option>
+    <option >Chhattisgarh	</option>
+    <option >Delhi</option>
+    <option >Goat</option>
+    <option >Gujarat</option>
+    <option >Haryana</option>
+    <option>Himachal Pradesh</option>
+    <option >Jharkhand</option>
+    <option >Karnataka</option>
+    <option >Kerala</option>
+    <option >Madhya Pradesh</option>
+    <option >Maharashtra</option>
+    <option >Manipur</option>
+    <option>Meghalaya</option>
+    <option >Mizoram</option>
+    <option >Nagaland</option>
+    <option>Odisha</option>
+    <option >Punjab</option>
+    <option>Rajasthan</option>
+    <option >Sikkim</option>
+    <option >Tamil Nadu</option>
+    <option>Telangana</option>
+    <option>Tripura</option>
+    <option>Uttar Pradesh</option>
+    <option>Uttarakhand</option>
+    <option>West Bengal</option>
+</select></td>
+
+</tr><br/><br/>
+
+<tr>
+<td>PinCode:</td>
+<td><input type="text" name="pincode" id="pincode" size="8"></td>
+<td>DOB:</td>
+<td><input id="birthday" type="date" name="birthday" placeholder="Date of Birth"></td>
+</tr>
+
+<tr>
+<td>Aadhar No:</td>
+<td><input id="aadhar" type="aadhaar" name="aadhaar" maxlength="12" size="15">
+<input type="file" class="form-control-file border" name="file"></td>
+<td>Pan:</td>
+<td><input id="pan" type="pan" name="pan" maxlength="12" size="15" required/>
+<input type="file" class="form-control-file border" name="file"></td>
+</tr>
+
+<tr>
+<td>Account No:</td>
+<td><input id="account" type="account" name="account" maxlength="20" size="20">
+<td>IFSC Code:</td>
+<td><input id="ifsccode"  name="ifsccode" type="text" placeholder="IFSC"></td>
+</tr>
+
+<tr>
+<td>Director/ Shareholder in any company ?:</td>
+<td><input type="radio" name="text" value="Form1"  size="10">Yes
+<input type="radio" name="text" value="None1" size="10" checked>No</td>
+<td>Having Income more than 50 lakh ?:</td>
+<td><input type="radio" name="text" value="Form2"  size="10">Yes
+<input type="radio" name="text" value="None2" size="10" >No</td>
+</tr>
+
+<tr>
+<td>Deposited cash of Rs. 1 crore or more ?:</td>
+<td><input type="radio" name="text" value="Form3"  size="10">Yes
+<input type="radio" name="text" value="Non3" size="10">No</td>
+<td>Expended more than Rs. 2 lakhs on foreign travel ?:</td>
+<td><input type="radio" name="text" value="Form3"  size="10">Yes
+<input type="radio" name="text" value="Non3" size="10">No</td>
+</tr>
+
+<tr>
+<td>Spent Rs. 1 lakhs or more on electricity ?:</td>
+<td><input type="radio" name="text" value="Form3"  size="10">Yes
+<input type="radio" name="text" value="Non3" size="10">No</td>
+</tr>
+
+<td class="center">
+<button type="save" class="btn btn-save" >Save</button>
+<button type="next" class="btn btn-Next"><a href="form1.html">Next</button>
+</td class="center">
+</table>
+</form>
+</body>
+</html>
